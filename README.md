@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # React-Desenvolvendo-uma-biblioteca-de-componentes
-React - Desenvolvendo uma biblioteca de componentes
-=======
+
 # TSDX React w/ Storybook User Guide
 
 Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
@@ -183,4 +181,5 @@ Change the `alias` to point to where those packages are actually installed. This
 ```
 
 An alternative to fixing this problem would be to remove aliases altogether and define the dependencies referenced as aliases as dev dependencies instead. [However, that might cause other problems.](https://github.com/palmerhq/tsdx/issues/64)
->>>>>>> 86d80e6 (iniciando o projeto de design system)
+
+> > > > > > > 86d80e6 (iniciando o projeto de design system)
