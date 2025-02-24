@@ -35,16 +35,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "ds-gustadev-base",
+  "name": "ds-firstpublicgustadev-base",
   "author": "Gustavo Vieira",
-  "module": "dist/ds-alurabooks-base.esm.js",
+  "module": "dist/ds-firstpublicgustadev-base.esm.js",
   "size-limit": [
     {
-      "path": "dist/ds-alurabooks-base.cjs.production.min.js",
+      "path": "dist/ds-firstpublicgustadev-base.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/ds-alurabooks-base.esm.js",
+      "path": "dist/ds-firstpublicgustadev-base.esm.js",
       "limit": "10 KB"
     }
   ],
