@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ContainerInput, StyledInput, StyledLabel } from './styles';
 
 export interface GdCampoTextoProps {
