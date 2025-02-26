@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   FooterStyled,
   HeaderStyled,
@@ -15,18 +15,45 @@ export interface GdGrupoOpcao {
 
 export interface GdGrupoOpcaoProps {
   opcoes: GdGrupoOpcao[];
+  valorPadrao?: GdGrupoOpcao | null;
+  onChange?: (opcao: GdGrupoOpcao) => void;
 }
 
-export const GdGrupoOpcoes = ({ opcoes }: GdGrupoOpcaoProps) => {
+export const GdGrupoOpcoes = ({
+  opcoes,
+  valorPadrao,
+  onChange,
+}: GdGrupoOpcaoProps) => {
+  const [selecao, setSelecao] = useState<GdGrupoOpcao | null>(
+    valorPadrao ?? null
+  );
+
+  const aoSelecionar = (opcao: GdGrupoOpcao): void => {
+    setSelecao(opcao);
+    if (onChange) {
+      onChange(opcao);
+    }
+  };
+
   return (
     <>
       {opcoes.map(opcao => (
-        <SectionStyled key={opcao.id} selecionado={false}>
-          <HeaderStyled selecionado={false}>{opcao.titulo}</HeaderStyled>
+        <SectionStyled
+          onClick={() => aoSelecionar(opcao)}
+          key={opcao.id}
+          selecionado={selecao?.id == opcao.id}
+        >
+          <HeaderStyled selecionado={selecao?.id == opcao.id}>
+            {opcao.titulo}
+          </HeaderStyled>
           <div>
-            <StrongStyled selecionado={false}>{opcao.corpo}</StrongStyled>
+            <StrongStyled selecionado={selecao?.id == opcao.id}>
+              {opcao.corpo}
+            </StrongStyled>
           </div>
-          <FooterStyled selecionado={false}>{opcao.rodape}</FooterStyled>
+          <FooterStyled selecionado={selecao?.id == opcao.id}>
+            {opcao.rodape}
+          </FooterStyled>
         </SectionStyled>
       ))}
     </>

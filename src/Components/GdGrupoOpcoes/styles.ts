@@ -20,6 +20,8 @@ export const SectionStyled = styled.section<{ selecionado: boolean }>`
   text-align: center;
 
   cursor: pointer;
+
+  transition: all 0.2s;
 `;
 
 export const HeaderStyled = styled.header<{ selecionado: boolean }>`

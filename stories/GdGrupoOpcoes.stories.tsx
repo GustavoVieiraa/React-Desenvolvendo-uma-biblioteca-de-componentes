@@ -23,13 +23,13 @@ Padrao.args = {
       rodape: '.pdf, .epub, .mob',
     },
     {
-      id: 1,
+      id: 2,
       titulo: 'Impresso',
       corpo: 'R$ 00,00',
       rodape: '.pdf, .epub, .mob',
     },
     {
-      id: 1,
+      id: 3,
       titulo: 'Impresso + E-book',
       corpo: 'R$ 00,00',
       rodape: '.pdf, .epub, .mob',
