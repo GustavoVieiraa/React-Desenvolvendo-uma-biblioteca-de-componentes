@@ -5,10 +5,15 @@ export interface Props extends HTMLAttributes<HTMLDivElement> {
 }
 
 export const Thing: FC<Props> = ({ children }) => {
-  return <div>{children || `the snozzberries taste like snozzberries`}</div>;
+  return (
+    <div>
+      {children || <h1>Esse é o StoryBook de Componentes da minha empresa.</h1>}
+    </div>
+  );
 };
 
 export * from './Components/GdBotao/GdBotao';
 export * from './Components/Card/Card';
 export * from './Components/GdTag/GdTag';
 export * from './Components/GdGrupoOpcoes/GdGrupoOpcoes';
+export * from './Components/GdCampoTexto/GdCampoTexto';
