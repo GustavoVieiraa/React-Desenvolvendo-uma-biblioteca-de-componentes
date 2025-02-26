@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { GdBotaoProps } from '.';
+import { GdBotaoProps } from './GdBotao';
 
 export const BotaoEstilizado = styled.button<GdBotaoProps>`
   background-color: ${(props: GdBotaoProps) =>
