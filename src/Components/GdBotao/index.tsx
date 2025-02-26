@@ -1,6 +1,20 @@
 import React from 'react';
 import { BotaoEstilizado } from './styles';
 
-export const GdBotao = () => {
-  return <BotaoEstilizado>Clique aqui!</BotaoEstilizado>;
+export interface GdBotaoProps {
+  texto?: string;
+  tipo?: 'primario' | 'secundario';
+  onClick?: () => void;
+}
+
+export const GdBotao = ({
+  texto,
+  tipo = 'primario',
+  onClick,
+}: GdBotaoProps) => {
+  return (
+    <BotaoEstilizado onClick={onClick} tipo={tipo}>
+      {texto}
+    </BotaoEstilizado>
+  );
 };
