@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { GdGrupoOpcoes } from '../src';
+import { GdGrupoOpcaoProps, GdGrupoOpcoes } from '../src';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 export default {
@@ -8,8 +8,31 @@ export default {
   component: GdGrupoOpcoes,
 } as ComponentMeta<typeof GdGrupoOpcoes>;
 
-const Template: ComponentStory<typeof GdGrupoOpcoes> = () => <GdGrupoOpcoes />;
+const Template: ComponentStory<typeof GdGrupoOpcoes> = args => (
+  <GdGrupoOpcoes {...args} />
+);
 
 export const Padrao = Template.bind({});
 
-Padrao.args = {};
+Padrao.args = {
+  opcoes: [
+    {
+      id: 1,
+      titulo: 'E-book',
+      corpo: 'R$ 00,00',
+      rodape: '.pdf, .epub, .mob',
+    },
+    {
+      id: 1,
+      titulo: 'Impresso',
+      corpo: 'R$ 00,00',
+      rodape: '.pdf, .epub, .mob',
+    },
+    {
+      id: 1,
+      titulo: 'Impresso + E-book',
+      corpo: 'R$ 00,00',
+      rodape: '.pdf, .epub, .mob',
+    },
+  ],
+} as GdGrupoOpcaoProps;

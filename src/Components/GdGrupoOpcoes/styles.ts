@@ -36,7 +36,7 @@ export const StrongStyled = styled.strong<{ selecionado: boolean }>`
 `;
 
 export const FooterStyled = styled.footer<{ selecionado: boolean }>`
-  color: ${props => (props.selecionado ? '#FEFEFE' : '#049dd9;')};
+  color: ${props => (props.selecionado ? '#FEFEFE' : 'grey;')};
   font-weight: 400;
   font-size: 12px;
 `;
