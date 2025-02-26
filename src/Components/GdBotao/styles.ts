@@ -31,6 +31,7 @@ export const BotaoEstilizado = styled.button<GdBotaoProps>`
       : css`
           &:hover {
             background-color: #fefefe;
+            border: 2px solid rgb(3, 142, 197);
             color: rgb(3, 142, 197);
           }
         `};
