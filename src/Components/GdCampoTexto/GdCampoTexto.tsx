@@ -24,7 +24,9 @@ export const GdCampoTexto = ({
           type={type}
           value={value}
           placeholder={placeholder}
-          onChange={event => onChange(event.target.value)}
+          onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+            onChange(event.target.value)
+          }
         />
       </ContainerInput>
     </>
