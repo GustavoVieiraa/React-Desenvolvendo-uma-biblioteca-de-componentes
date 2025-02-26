@@ -9,3 +9,6 @@ export const Thing: FC<Props> = ({ children }) => {
 };
 
 export * from './Components/GdBotao/GdBotao';
+export * from './Components/Card/Card';
+export * from './Components/GdTag/GdTag';
+export * from './Components/GdGrupoOpcoes/GdGrupoOpcoes';

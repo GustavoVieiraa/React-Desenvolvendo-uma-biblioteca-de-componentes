@@ -1,6 +1,6 @@
 import React from 'react';
 import { ComponentMeta } from '@storybook/react';
-import { Card } from '../src/Components/Card';
+import { Card } from '../src/Components/Card/Card';
 
 export default {
   title: 'componentes/Card',
