@@ -16,8 +16,6 @@ export const GdCampoTexto = ({
   type = 'text',
   placeholder,
 }: GdCampoTextoProps) => {
-  const [input, setInput] = useState<GdCampoTextoProps | null>();
-
   return (
     <>
       <ContainerInput>
