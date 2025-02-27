@@ -17,3 +17,4 @@ export * from './Components/Card/Card';
 export * from './Components/GdTag/GdTag';
 export * from './Components/GdGrupoOpcoes/GdGrupoOpcoes';
 export * from './Components/GdCampoTexto/GdCampoTexto';
+export * from './Components/InputQuantidade/InputQuantidade';
