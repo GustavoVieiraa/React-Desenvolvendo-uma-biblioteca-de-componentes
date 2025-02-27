@@ -70,3 +70,7 @@
     </li>
   </ul>
 </div>
+<div align="center">
+  <h1>📼 Storybook desenvolvido:</h1>
+  <img src="https://raw.githubusercontent.com/GustavoVieiraa/React-Desenvolvendo-uma-biblioteca-de-componentes/refs/heads/main/src/video/Empresa-DefaultStorybook.gif">
+</div>
