@@ -6,13 +6,21 @@
         <a href="https://github.com/GustavoVieiraa">
           <img loading="lazy" src="https://avatars.githubusercontent.com/u/98718305?v=4" width="115" alt="Gustavo Vieira"><br>
         </a>
-        <sub>Gustavo Vieira</sub>
+        <h4>Gustavo Vieira</h4>
       </td>
-      <td>
+      <td align="center">
         <!-- Link para o Certificado -->
         <a href="https://cursos.alura.com.br/certificate/gustavo-vieira17/react-desenvolvendo-biblioteca-componentes?lang=pt_BR">
           <img loading="lazy" width="128px" src="https://www.alura.com.br/assets/api/cursos/react-desenvolvendo-biblioteca-componentes.svg" />
         </a>
+        <h4>Curso</h4>
+      </td>
+      <td align="center">
+        <!-- Link para o Certificado -->
+        <a href="https://cursos.alura.com.br/certificate/gustavo-vieira17/react-desenvolvendo-biblioteca-componentes?lang=pt_BR">
+          <img loading="lazy" width="128px" src="https://static.vecteezy.com/system/resources/previews/028/293/920/original/trophy-icon-3d-rendering-illustration-png.png" />
+        </a>
+        <h4>Certificado</h4>
       </td>
     </tr>
   </table>
