@@ -1,13 +1,6 @@
 <div align="center">
   <table>
     <tr>
-      <td style="text-align: center;">
-        <!-- Link para o GitHub -->
-        <a href="https://github.com/GustavoVieiraa">
-          <img loading="lazy" src="https://avatars.githubusercontent.com/u/98718305?v=4" width="115" alt="Gustavo Vieira"><br>
-        </a>
-        <h4>Gustavo Vieira</h4>
-      </td>
       <td align="center">
         <!-- Link para o Certificado -->
         <a href="https://cursos.alura.com.br/certificate/gustavo-vieira17/react-desenvolvendo-biblioteca-componentes?lang=pt_BR">
